@@ -5,7 +5,9 @@
     "semantic-release-monorepo": "^7.0.5"
   },
   "scripts":{
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
   },
   "name": "npm-packages-template"
 }
