@@ -1,0 +1,38 @@
+{
+  "name": "@luchen/template",
+  "version": "0.0.0",
+  "description": "Template Component",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lberrocal/npm-packages-template.git"
+  },
+  "keywords": [
+    "template",
+    "react-app"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "web-dev-server": "^3.0.22",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "author": "lberrocal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lberrocal/npm-packages-template/issues"
+  },
+  "homepage": "https://github.com/lberrocal/npm-packages-template#readme"
+}
