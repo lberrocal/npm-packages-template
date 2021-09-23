@@ -2008,9 +2008,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@luchen/template@workspace:packages/template":
+"@lberrocal/template@workspace:packages/template":
   version: 0.0.0-use.local
-  resolution: "@luchen/template@workspace:packages/template"
+  resolution: "@lberrocal/template@workspace:packages/template"
   dependencies:
     "@babel/core": ^7.15.5
     "@babel/preset-env": ^7.15.4
