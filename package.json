@@ -5,5 +5,8 @@
   "workspaces": [
     "packages/*",
     "web/web-template"
-  ]
+  ],
+  "devDependencies": {
+    "monodeploy": "^2.8.11"
+  }
 }
