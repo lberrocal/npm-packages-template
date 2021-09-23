@@ -6,7 +6,15 @@
     "packages/*",
     "web/web-template"
   ],
+  "scripts": {
+    "build-packages": "yarn workspaces foreach -ptR --from '@lberrocal/*' run build",
+    "publish-packages": "yarn monodeploy --config-file monodeploy.publish.config.js",
+    "preview-changes": "yarn monodeploy --config-file monodeploy.preview.config.js"
+  },
   "devDependencies": {
     "monodeploy": "^2.8.11"
+  },
+  "dependencies": {
+    "@tophat/conventional-changelog-config": "^0.5.9"
   }
 }
