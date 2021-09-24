@@ -1696,6 +1696,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@dumbstuff/template@workspace:packages/template":
+  version: 0.0.0-use.local
+  resolution: "@dumbstuff/template@workspace:packages/template"
+  dependencies:
+    "@babel/core": ^7.15.5
+    "@babel/preset-env": ^7.15.4
+    "@babel/preset-react": ^7.14.5
+    babel-loader: ^8.2.2
+    css-loader: ^6.2.0
+    react: ^17.0.2
+    style-loader: ^3.2.1
+    web-dev-server: ^3.0.22
+    webpack: ^5.52.0
+    webpack-cli: ^4.8.0
+  languageName: unknown
+  linkType: soft
+
 "@eslint/eslintrc@npm:^0.4.3":
   version: 0.4.3
   resolution: "@eslint/eslintrc@npm:0.4.3"
@@ -2007,23 +2024,6 @@ __metadata:
   checksum: 917acbf05d96415cae05067f1f0c79a58112b086baf941b92f4fc989d75f632cf7c2a87eb679254609c96d24ed7e442ea5b387312651996ed95310f7003a43e2
   languageName: node
   linkType: hard
-
-"@lberrocal/template@workspace:packages/template":
-  version: 0.0.0-use.local
-  resolution: "@lberrocal/template@workspace:packages/template"
-  dependencies:
-    "@babel/core": ^7.15.5
-    "@babel/preset-env": ^7.15.4
-    "@babel/preset-react": ^7.14.5
-    babel-loader: ^8.2.2
-    css-loader: ^6.2.0
-    react: ^17.0.2
-    style-loader: ^3.2.1
-    web-dev-server: ^3.0.22
-    webpack: ^5.52.0
-    webpack-cli: ^4.8.0
-  languageName: unknown
-  linkType: soft
 
 "@monodeploy/changelog@npm:^0.7.7":
   version: 0.7.7

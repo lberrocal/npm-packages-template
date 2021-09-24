@@ -7,7 +7,7 @@
     "web/web-template"
   ],
   "scripts": {
-    "build-packages": "yarn workspaces foreach -ptR --from '@lberrocal/*' run build",
+    "build-packages": "yarn workspaces foreach -ptR --from '@dumbstuff/*' run build",
     "publish-packages": "yarn monodeploy --config-file monodeploy.publish.config.js",
     "preview-changes": "yarn monodeploy --config-file monodeploy.preview.config.js"
   },
