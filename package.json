@@ -1,11 +1,18 @@
 {
+  "name": "npm-packages-template",
+  "packageManager": "yarn@3.0.2",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "web/web-template"
+  ],
+  "scripts": {
+    "build-packages": "yarn workspaces foreach -ptR --from '@dumbstuff/*' run build",
+    "publish-packages": "yarn monodeploy --config-file monodeploy.publish.config.js",
+    "preview-changes": "yarn monodeploy --config-file monodeploy.preview.config.js"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "semantic-release": "^17.4.7",
-    "semantic-release-monorepo": "^7.0.5"
-  },
-  "scripts":{
-    "test": "lerna run test"
-  },
-  "name": "npm-packages-template"
+    "@tophat/conventional-changelog-config": "^0.5.9",
+    "monodeploy": "^2.8.11"
+  }
 }
